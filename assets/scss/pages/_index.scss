@@ -1,0 +1,49 @@
+.shadow-style {
+  border: $gray-300;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.radius-12 {
+  border-radius: 12px;
+}
+
+.h-144 {
+  // min & max 用法
+  min-height: 144px;
+}
+
+.addTicket {
+  textarea {
+    resize: none;
+  }
+
+  button {
+    border-radius: 4.8px;
+    padding: 10px 40px;
+  }
+}
+
+.form-input {
+  input::placeholder {
+    color: $gray-600;
+    font-weight: normal;
+  }
+}
+
+.badge-style {
+  border-radius: 0px 4px 4px 0px;
+}
+
+.ticketCard-region {
+  transform: translateY(-12px);
+}
+
+.ticketCard-rank {
+  transform: translateY(50%);
+  z-index: 100;
+  width: 40px;
+}
+
+p {
+  text-align: justify;
+}
